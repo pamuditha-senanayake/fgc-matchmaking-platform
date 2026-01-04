@@ -80,6 +80,6 @@ exports.reportResult = onCall({ cors: true, region: "us-central1" }, async (requ
             completedAt: FieldValue.serverTimestamp()
         });
 
-        return { status: "payout_complete", prize: matchData.totalPrize };
+        return { status: "payout_complete 2", prize: matchData.totalPrize };
     });
 });
